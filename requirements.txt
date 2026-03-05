@@ -1,0 +1,7 @@
+# requirements.txt
+customtkinter>=5.2.0
+requests>=2.28.0
+pandas>=1.5.0
+openpyxl>=3.0.0
+matplotlib>=3.5.0
+# Optional: pvlib-python for scripts/build_sam_panels_from_cec.py (or script downloads CEC CSV from NREL)

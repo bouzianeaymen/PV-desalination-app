@@ -1,0 +1,1 @@
+{"timestamp": "2026-03-05T01:04:48.314962", "ranges": {"pvgis_PVGIS-ERA5": {"min": 2005, "max": 2023, "source": "api_probe"}, "ninja_CM-SAF SARAH (Europe)": {"min": 2005, "max": 2015, "source": "api_probe"}, "ninja_MERRA-2 (global)": {"min": 1980, "max": 2023, "source": "api_probe"}}}

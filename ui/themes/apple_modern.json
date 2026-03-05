@@ -1,0 +1,124 @@
+{
+  "name": "Apple Modern 2026",
+  "version": "2.0",
+  "description": "macOS Sequoia-inspired theme – warm neutrals, glassmorphism, intentional whitespace",
+  "modes": {
+    "light": {
+      "primary": {
+        "blue": "#007AFF",
+        "blue_hover": "#0066DD",
+        "blue_light": "#E3F0FF",
+        "blue_dark": "#0055CC",
+        "blue_medium": "#3B82F6",
+        "blue_deep": "#2563EB",
+        "blue_tint": "#F0F6FF"
+      },
+      "background": {
+        "main": "#F5F5F7",
+        "card": "#FFFFFF",
+        "sidebar": "#F5F5F7",
+        "elevated": "#FFFFFF",
+        "hover": "#ECECEE",
+        "input": "#EFEFF1",
+        "input_focus": "#FFFFFF",
+        "disabled": "#E8E8ED",
+        "selected": "#E3F0FF",
+        "selected_alt": "#DBEAFE",
+        "gray_light": "#F3F4F6",
+        "gray_lighter": "#F9FAFB",
+        "gray_pale": "#FAFAFA",
+        "divider": "#E8E8ED",
+        "table_even": "#FAFBFC",
+        "glass": "#F5F5F780",
+        "frosted": "#FFFFFF99"
+      },
+      "text": {
+        "primary": "#1D1D1F",
+        "secondary": "#6E6E73",
+        "muted": "#AEAEB2",
+        "placeholder": "#C7C7CC",
+        "gray_dark": "#374151",
+        "gray_medium": "#6B7280",
+        "gray_light": "#9CA3AF",
+        "gray_darker": "#4B5563",
+        "slate_dark": "#1E293B",
+        "slate_medium": "#334155",
+        "slate_light": "#64748B"
+      },
+      "status": {
+        "success": "#34C759",
+        "success_alt": "#30D158",
+        "success_dark": "#248A3D",
+        "success_darker": "#16A34A",
+        "success_darkest": "#1B5E20",
+        "success_light": "#D1F2D9",
+        "success_pale": "#F0FFF4",
+        "error": "#FF3B30",
+        "error_alt": "#EF4444",
+        "error_light": "#FFF0EE",
+        "warning": "#FF9500",
+        "warning_alt": "#F97316",
+        "warning_light": "#FFF8F0",
+        "info": "#5AC8FA",
+        "info_pale": "#F0F8FF"
+      },
+      "border": {
+        "light": "#E8E8ED",
+        "medium": "#D2D2D7",
+        "gray": "#E5E7EB",
+        "gray_dark": "#CBD5E1",
+        "subtle": "#F0F0F2"
+      },
+      "module": {
+        "source": "#007AFF",
+        "desalination": "#34C759",
+        "desalination_alt": "#30D158",
+        "economics": "#FF9500"
+      },
+      "semantic": {
+        "card_completed": "#34C759",
+        "card_pending": "#3B82F6",
+        "badge_tmy": "#F39C12",
+        "badge_pv": "#2ECC71"
+      }
+    },
+    "dark": {
+      "_note": "Dark mode placeholder for future implementation",
+      "primary": {
+        "blue": "#0A84FF",
+        "blue_hover": "#409CFF",
+        "blue_light": "#64D2FF",
+        "blue_dark": "#0071E3"
+      },
+      "background": {
+        "main": "#1C1C1E",
+        "card": "#2C2C2E",
+        "sidebar": "#242426",
+        "elevated": "#3A3A3C",
+        "hover": "#38383A",
+        "input": "#38383A",
+        "input_focus": "#48484A",
+        "disabled": "#48484A",
+        "selected": "#1E3A5F"
+      },
+      "text": {
+        "primary": "#FFFFFF",
+        "secondary": "#EBEBF5",
+        "muted": "#98989D",
+        "placeholder": "#636366"
+      },
+      "status": {
+        "success": "#30D158",
+        "success_light": "#1E3A2B",
+        "error": "#FF453A",
+        "error_light": "#3D2526",
+        "warning": "#FF9F0A",
+        "info": "#64D2FF"
+      },
+      "border": {
+        "light": "#38383A",
+        "medium": "#48484A"
+      }
+    }
+  }
+}
