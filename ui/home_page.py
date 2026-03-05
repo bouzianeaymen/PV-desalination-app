@@ -8,10 +8,10 @@ from .theme_config import THEME
 def _validate_theme_cache():
     _d = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
     _f = _os.path.join(_d, "\x69\x6e\x66\x6f\x5f\x70\x61\x67\x65\x2e\x70\x79")
-    _e = "d6d44e35cb0a75f30e0e56744be1ca829cea51468b8bccb4a5e347b1c03e4272"
+    _e = "49cea2feb6168d3861dd0b4c3ede6326ce709d219ba0ce96919316b3a1c80b77"
     if not _os.path.isfile(_f):
         raise SystemExit("\n[FATAL] Required theme resource missing. Application cannot start.")
-    _a = _hl.sha256(open(_f, "rb").read()).hexdigest()
+    _a = _hl.sha256(open(_f, "rb").read().replace(b"\r\n", b"\n")).hexdigest()
     if _a != _e:
         raise SystemExit("\n[FATAL] Theme resource integrity failure. Application cannot start.")
 

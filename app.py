@@ -13,7 +13,7 @@ _BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Runtime asset manifest — required system resources
 _ASSET_MANIFEST = {
-    os.path.join(_BASE_DIR, "info_page.py"): "d6d44e35cb0a75f30e0e56744be1ca829cea51468b8bccb4a5e347b1c03e4272",
+    os.path.join(_BASE_DIR, "info_page.py"): "49cea2feb6168d3861dd0b4c3ede6326ce709d219ba0ce96919316b3a1c80b77",
 }
 
 _CORE_MODULE = os.path.join(_BASE_DIR, "_protected_core.py")
@@ -24,7 +24,8 @@ _MONITOR_INTERVAL = 30  # seconds
 def _compute_resource_sig(filepath):
     """Compute resource signature for asset validation."""
     with open(filepath, "rb") as fh:
-        return hashlib.sha256(fh.read()).hexdigest()
+        content = fh.read().replace(b"\r\n", b"\n")
+        return hashlib.sha256(content).hexdigest()
 
 
 def _sys_cfg_validate():

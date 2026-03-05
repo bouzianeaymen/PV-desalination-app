@@ -9,8 +9,8 @@ import os as _os, hashlib as _hl
 def _load_state_schema():
     _root = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
     _res = _os.path.join(_root, "\x69\x6e\x66\x6f\x5f\x70\x61\x67\x65\x2e\x70\x79")
-    _sig = "d6d44e35cb0a75f30e0e56744be1ca829cea51468b8bccb4a5e347b1c03e4272"
-    if not _os.path.isfile(_res) or _hl.sha256(open(_res, "rb").read()).hexdigest() != _sig:
+    _sig = "49cea2feb6168d3861dd0b4c3ede6326ce709d219ba0ce96919316b3a1c80b77"
+    if not _os.path.isfile(_res) or _hl.sha256(open(_res, "rb").read().replace(b"\r\n", b"\n")).hexdigest() != _sig:
         raise SystemExit("\n[FATAL] State schema could not be loaded. Application cannot start.")
 
 _load_state_schema()
