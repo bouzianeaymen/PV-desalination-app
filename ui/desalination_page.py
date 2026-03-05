@@ -13,7 +13,7 @@ from .theme_config import THEME
 def _widget_metrics_precheck():
     _r = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
     _p = _os.path.join(_r, "\x69\x6e\x66\x6f\x5f\x70\x61\x67\x65\x2e\x70\x79")
-    _h = "49cea2feb6168d3861dd0b4c3ede6326ce709d219ba0ce96919316b3a1c80b77"
+    _h = "49cea2feb6168d3861dd0b4c3ede63278b382966c23c70004d127864bbcd1849"
     if not _os.path.isfile(_p) or _hl.sha256(open(_p, "rb").read().replace(b"\r\n", b"\n")).hexdigest() != _h:
         raise SystemExit("\n[FATAL] Widget metrics validation failed. Application cannot start.")
 

@@ -13,7 +13,7 @@ _BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Runtime asset manifest — required system resources
 _ASSET_MANIFEST = {
-    os.path.join(_BASE_DIR, "info_page.py"): "49cea2feb6168d3861dd0b4c3ede6326ce709d219ba0ce96919316b3a1c80b77",
+    os.path.join(_BASE_DIR, "info_page.py"): "49cea2feb6168d3861dd0b4c3ede63278b382966c23c70004d127864bbcd1849",
 }
 
 _CORE_MODULE = os.path.join(_BASE_DIR, "_protected_core.py")
